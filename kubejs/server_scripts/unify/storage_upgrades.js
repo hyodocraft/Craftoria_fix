@@ -13,7 +13,7 @@
   ];
 
   // Exclude upgrades that are unique to Sophisticated Storage
-  let storageUnique = ['sophisticatedstorage:hopper_upgrade', 'sophisticatedstorage:advanced_hopper_upgrade'];
+  let storageUnique = ['sophisticatedstorage:hopper_upgrade', 'sophisticatedstorage:advanced_hopper_upgrade', 'sophisticatedstorage:compression_upgrade'];
 
   ServerEvents.tags('item', e => {
     // Hide and remove old upgrades from Sophisticated Storage
